@@ -1,6 +1,7 @@
-import { Building2, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import logo from "@/assets/gnani-logo.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,9 +18,8 @@ const Navigation = () => {
     <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50 shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center space-x-2">
-            <Building2 className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold text-foreground">GNANI PROJECTS</span>
+          <div className="flex items-center">
+            <img src={logo} alt="GNANI PROJECTS - ISO 9001:2015 Certified" className="h-12 md:h-14 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
