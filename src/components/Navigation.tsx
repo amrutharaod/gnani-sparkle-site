@@ -19,7 +19,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <img src={logo} alt="GNANI PROJECTS - ISO 9001:2015 Certified" className="h-10 w-auto" />
+            <img src={logo} alt="GNANI PROJECTS - ISO 9001:2015 Certified" className="h-14 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
